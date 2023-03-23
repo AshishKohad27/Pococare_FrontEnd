@@ -1,7 +1,9 @@
-# _E Commerce Website_
+# _PocoCare_
 
 Project Links
+<br/>
 Frontend:- https://pococare-front-end.vercel.app/
+<br/>
 Backend :- https://dull-lime-fly-vest.cyclic.app/
 
 ## Build with
@@ -59,16 +61,19 @@ Form validation
 <br/>
 ## Login Page
 
-![Alt text](public/Img/Login_PocoCare.PNG)
+![Alt text](src/Img/Login_PocoCare.PNG)
+
 <br/>
 ## Sign Up Page
 
-![Alt text](public/Img/Signup_PocoCare.PNG)
+![Alt text](src/Img/Signup_PocoCare.PNG)
+
 <br/>
 
 ## Landing page and Private Page
 
-![Alt text](public/Img/Private_Page.PNG)
+![Alt text](src/Img/Private_Page.PNG)
+
 <br/>
 
 <img src="https://raw.githubusercontent.com/Trilokia/Trilokia/379277808c61ef204768a61bbc5d25bc7798ccf1/bottom_header.svg" />

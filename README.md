@@ -58,13 +58,16 @@ Backend :- https://dull-lime-fly-vest.cyclic.app/
 Form validation
 <br/>
 ## Login Page
+
 ![Alt text](public/Img/Login_PocoCare.PNG)
 <br/>
 ## Sign Up Page
+
 ![Alt text](public/Img/Signup_PocoCare.PNG)
 <br/>
 
 ## Landing page and Private Page
+
 ![Alt text](public/Img/Private_Page.PNG)
 <br/>
 

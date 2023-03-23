@@ -14,6 +14,8 @@ export default function About() {
     const { isAuth, pageValidation, errorMessage } = useSelector(
         (store) => store.user
     );
+    console.log('errorMessage:', errorMessage)
+    console.log('pageValidation:', pageValidation)
 
     useEffect(() => {
         if (pageValidation === "Valid Page!") {

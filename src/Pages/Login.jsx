@@ -4,16 +4,13 @@ import {
     FormControl,
     FormLabel,
     Input,
-    Checkbox,
     Stack,
     Button,
-    Heading,
-    Text,
+    Heading
 } from '@chakra-ui/react';
 import { useState, useEffect } from 'react';
 import { useDispatch, useSelector } from "react-redux";
-// import { postLogin } from "../redux/user/user.action";
-import { Link, Navigate } from 'react-router-dom';
+import { Navigate } from 'react-router-dom';
 import { postLogin } from '../Redux/user/user.action';
 import { CLEAR_MESSAGE } from '../Redux/user/user.type';
 
@@ -25,8 +22,8 @@ export default function Login() {
     const [form, setForm] = useState(initialState);
     const dispatch = useDispatch();
     const { loading, error, isAuth, message } = useSelector((store) => store.user);
-    console.log('message:', message)
-    console.log('isAuth:', isAuth);
+    // console.log('message:', message)
+    // console.log('isAuth:', isAuth);
 
     useEffect(() => {
         if (message === "Wrong Credentials") {
@@ -68,9 +65,6 @@ export default function Login() {
                 <Stack spacing={8} mx={'auto'} maxW={'lg'} py={12} px={6}>
                     <Stack align={'center'}>
                         <Heading fontSize={'4xl'}>Login to your account</Heading>
-                        <Text fontSize={'lg'} color={'gray.600'}>
-                            to enjoy all of our cool <Link color={'blue.400'}>features</Link> ✌️
-                        </Text>
                     </Stack>
                     <Box
                         rounded={'lg'}
@@ -94,13 +88,6 @@ export default function Login() {
                                 />
                             </FormControl>
                             <Stack spacing={10}>
-                                <Stack
-                                    direction={{ base: 'column', sm: 'row' }}
-                                    align={'start'}
-                                    justify={'space-between'}>
-                                    <Checkbox>Remember me</Checkbox>
-                                    <Link color={'blue.400'}>Forgot password?</Link>
-                                </Stack>
 
                                 <Button
                                     bg={'blue.400'}

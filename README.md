@@ -61,18 +61,19 @@ Form validation
 <br/>
 ## Login Page
 
-![Alt text](src/Img/Login_PocoCare.PNG)
+![Alt text](Img/Login_PocoCare.PNG)
 
 <br/>
+
 ## Sign Up Page
 
-![Alt text](src/Img/Signup_PocoCare.PNG)
+![Alt text](Img/Signup_PocoCare.PNG)
 
 <br/>
 
 ## Landing page and Private Page
 
-![Alt text](src/Img/Private_Page.PNG)
+![Alt text](Img/Private_Page.PNG)
 
 <br/>
 
